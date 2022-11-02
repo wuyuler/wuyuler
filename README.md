@@ -5,6 +5,25 @@
 - 👋 Hi, 我是yjt98, 是一名计算机小萌新
 - 👀 关注开源, 计算机基础, 数据库, 爱好看小说, 电影. 代码水平一般, 但喜欢折腾工具O(∩_∩)O.
 - 🌱 目前主要学习数据库相关技术
+<table><tr><td valign="top" width="33%">
+
+### Recent releases
+<!-- recent_releases starts -->
+<!-- recent_releases ends -->
+test
+</td><td valign="top" width="34%">
+
+### On my blog
+<!-- blog starts -->
+<!-- blog ends -->
+test
+</td><td valign="top" width="33%">
+
+### TIL
+<!-- tils starts -->
+<!-- tils ends -->
+test
+</td></tr></table>
 
 <!---
 wuyuler/wuyuler is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
