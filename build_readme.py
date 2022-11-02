@@ -144,49 +144,49 @@ def fetch_blog_entries():
 
 if __name__ == "__main__":
     readme = root / "README.md"
-    project_releases = root / "releases.md"
-    releases = fetch_releases(TOKEN)
-    releases.sort(key=lambda r: r["published_at"], reverse=True)
-    md = "\n\n".join(
-        [
-            "[{repo} {release}]({url}) - {published_day}".format(**release)
-            for release in releases[:5]
-        ]
-    )
-    readme_contents = readme.open().read()
-    rewritten = replace_chunk(readme_contents, "recent_releases", md)
+    # project_releases = root / "releases.md"
+    # releases = fetch_releases(TOKEN)
+    # releases.sort(key=lambda r: r["published_at"], reverse=True)
+    # md = "\n\n".join(
+    #     [
+    #         "[{repo} {release}]({url}) - {published_day}".format(**release)
+    #         for release in releases[:5]
+    #     ]
+    # )
+    # readme_contents = readme.open().read()
+    # rewritten = replace_chunk(readme_contents, "recent_releases", md)
 
-    # Write out full project-releases.md file
-    project_releases_md = "\n".join(
-        [
-            (
-                "* **[{repo}]({repo_url})**: [{release}]({url}) {total_releases_md}- {published_day}\n"
-                "<br />{description}"
-            ).format(
-                total_releases_md="- ([{} releases total]({}/releases)) ".format(
-                    release["total_releases"], release["repo_url"]
-                )
-                if release["total_releases"] > 1
-                else "",
-                **release
-            )
-            for release in releases
-        ]
-    )
-    project_releases_content = project_releases.open().read()
-    project_releases_content = replace_chunk(
-        project_releases_content, "recent_releases", project_releases_md
-    )
-    project_releases_content = replace_chunk(
-        project_releases_content, "project_count", str(len(releases)), inline=True
-    )
-    project_releases_content = replace_chunk(
-        project_releases_content,
-        "releases_count",
-        str(sum(r["total_releases"] for r in releases)),
-        inline=True,
-    )
-    project_releases.open("w").write(project_releases_content)
+    # # Write out full project-releases.md file
+    # project_releases_md = "\n".join(
+    #     [
+    #         (
+    #             "* **[{repo}]({repo_url})**: [{release}]({url}) {total_releases_md}- {published_day}\n"
+    #             "<br />{description}"
+    #         ).format(
+    #             total_releases_md="- ([{} releases total]({}/releases)) ".format(
+    #                 release["total_releases"], release["repo_url"]
+    #             )
+    #             if release["total_releases"] > 1
+    #             else "",
+    #             **release
+    #         )
+    #         for release in releases
+    #     ]
+    # )
+    # project_releases_content = project_releases.open().read()
+    # project_releases_content = replace_chunk(
+    #     project_releases_content, "recent_releases", project_releases_md
+    # )
+    # project_releases_content = replace_chunk(
+    #     project_releases_content, "project_count", str(len(releases)), inline=True
+    # )
+    # project_releases_content = replace_chunk(
+    #     project_releases_content,
+    #     "releases_count",
+    #     str(sum(r["total_releases"] for r in releases)),
+    #     inline=True,
+    # )
+    # project_releases.open("w").write(project_releases_content)
 
     # tils = fetch_tils()
     # tils_md = "\n\n".join(
@@ -208,4 +208,4 @@ if __name__ == "__main__":
     # )
     # rewritten = replace_chunk(rewritten, "blog", entries_md)
 
-    readme.open("w").write(rewritten)
+    # readme.open("w").write(rewritten)

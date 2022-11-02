@@ -7,26 +7,6 @@
 - 🌱 目前主要学习数据库相关技术
 <table><tr><td valign="top" width="33%">
 
-### Recent releases
-<!-- recent_releases starts -->
-[pocket-to-sqlite 0.2.2](https://github.com/dogsheep/pocket-to-sqlite/releases/tag/0.2.2) - 2022-08-22
-
-[github-to-sqlite 2.8.3](https://github.com/dogsheep/github-to-sqlite/releases/tag/2.8.3) - 2021-12-01
-
-[twitter-to-sqlite 0.22](https://github.com/dogsheep/twitter-to-sqlite/releases/tag/0.22) - 2021-09-21
-
-[evernote-to-sqlite 0.3.2](https://github.com/dogsheep/evernote-to-sqlite/releases/tag/0.3.2) - 2021-08-26
-
-[healthkit-to-sqlite 1.0.1](https://github.com/dogsheep/healthkit-to-sqlite/releases/tag/1.0.1) - 2021-08-20
-
-[dogsheep-beta 0.10.2](https://github.com/dogsheep/dogsheep-beta/releases/tag/0.10.2) - 2021-06-13
-
-[hacker-news-to-sqlite 0.4](https://github.com/dogsheep/hacker-news-to-sqlite/releases/tag/0.4) - 2021-03-13
-
-[swarm-to-sqlite 0.3.3](https://github.com/dogsheep/swarm-to-sqlite/releases/tag/0.3.3) - 2021-01-18
-<!-- recent_releases ends -->
-test
-</td><td valign="top" width="34%">
 
 ### On my blog
 <!-- blog starts -->
