@@ -85,25 +85,16 @@ query {
 def fetch_releases(oauth_token):
     repos = []
     releases = []
-    repo_names = {"playing-with-actions"}  # Skip this one
+    repo_names = set()
     has_next_page = True
     after_cursor = None
 
-    first = True
-
     while has_next_page:
         data = client.execute(
-            query=make_query(after_cursor, include_organization=first),
+            query=repository_query(after_cursor),
             headers={"Authorization": "Bearer {}".format(oauth_token)},
         )
-        first = False
-        print()
-        print(json.dumps(data, indent=4))
-        print()
-        repo_nodes = data["data"]["viewer"]["repositories"]["nodes"]
-        if "organization" in data["data"]:
-            repo_nodes += data["data"]["organization"]["repositories"]["nodes"]
-        for repo in repo_nodes:
+        for repo in data["data"]["viewer"]["repositories"]["nodes"]:
             if repo["releases"]["totalCount"] and repo["name"] not in repo_names:
                 repos.append(repo)
                 repo_names.add(repo["name"])
@@ -113,18 +104,18 @@ def fetch_releases(oauth_token):
                         "repo_url": repo["url"],
                         "description": repo["description"],
                         "release": repo["releases"]["nodes"][0]["name"]
-                        .replace(repo["name"], "")
-                        .strip(),
-                        "published_at": repo["releases"]["nodes"][0]["publishedAt"],
-                        "published_day": repo["releases"]["nodes"][0][
+                            .replace(repo["name"], "")
+                            .strip(),
+                        "published_at": repo["releases"]["nodes"][0][
                             "publishedAt"
                         ].split("T")[0],
                         "url": repo["releases"]["nodes"][0]["url"],
-                        "total_releases": repo["releases"]["totalCount"],
                     }
                 )
+        has_next_page = data["data"]["viewer"]["repositories"]["pageInfo"][
+            "hasNextPage"
+        ]
         after_cursor = data["data"]["viewer"]["repositories"]["pageInfo"]["endCursor"]
-        has_next_page = after_cursor
     return releases
 
 
@@ -159,7 +150,7 @@ if __name__ == "__main__":
     md = "\n\n".join(
         [
             "[{repo} {release}]({url}) - {published_day}".format(**release)
-            for release in releases[:8]
+            for release in releases[:5]
         ]
     )
     readme_contents = readme.open().read()
