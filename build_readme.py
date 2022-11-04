@@ -81,7 +81,10 @@ query {
         "ORGANIZATION", organization_graphql if include_organization else "",
     )
 
-
+def formatGMTime(timestamp):
+    GMT_FORMAT = '%a, %d %b %Y %H:%M:%S GMT'
+    dateStr = datetime.datetime.strptime(timestamp, GMT_FORMAT) + datetime.timedelta(hours=8)
+    return dateStr.date()
 def fetch_releases(oauth_token):
     repos = []
     releases = []
