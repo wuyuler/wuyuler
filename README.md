@@ -18,11 +18,11 @@
 
 ### 豆瓣
 <!-- douban starts -->
-* <a href='https://book.douban.com/subject/6021440/' target='_blank'>最近在读黑客与画家</a> - 2022-11-03
-* <a href='https://book.douban.com/subject/26369699/' target='_blank'>最近在读被讨厌的勇气</a> - 2022-11-03
-* <a href='https://book.douban.com/subject/25862578/' target='_blank'>读过解忧杂货店</a> - 2022-11-03
-* <a href='https://book.douban.com/subject/26295448/' target='_blank'>读过你一生的故事</a> - 2022-11-03
-* <a href='https://book.douban.com/subject/1394364/' target='_blank'>读过银河系漫游指南</a> - 2022-11-03
+* <a href='http://movie.douban.com/subject/1851857/' target='_blank'>看过蝙蝠侠：黑暗骑士</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/1293172/' target='_blank'>看过末代皇帝</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/3319755/' target='_blank'>看过怦然心动</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/6786002/' target='_blank'>看过触不可及</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/1849031/' target='_blank'>看过当幸福来敲门</a> - 2022-11-04
 <!-- douban ends -->
 </td></tr></table>
 
