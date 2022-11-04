@@ -131,7 +131,7 @@ def fetch_tils():
 
 
 def fetch_blog_entries():
-    entries = feedparser.parse("https://simonwillison.net/atom/entries/")["entries"]
+    entries = feedparser.parse("https://wuyuler.github.io/feed.xml")["entries"]
     return [
         {
             "title": entry["title"],
@@ -202,10 +202,10 @@ if __name__ == "__main__":
     # )
     # rewritten = replace_chunk(rewritten, "tils", tils_md)
 
-    # entries = fetch_blog_entries()[:6]
-    # entries_md = "\n\n".join(
-    #     ["[{title}]({url}) - {published}".format(**entry) for entry in entries]
-    # )
-    # rewritten = replace_chunk(rewritten, "blog", entries_md)
+    entries = fetch_blog_entries()[:2]
+    entries_md = "\n\n".join(
+        ["[{title}]({url}) - {published}".format(**entry) for entry in entries]
+    )
+    rewritten = replace_chunk(rewritten, "blog", entries_md)
 
-    # readme.open("w").write(rewritten)
+    readme.open("w").write(rewritten)
