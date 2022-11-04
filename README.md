@@ -18,7 +18,11 @@
 
 ### 豆瓣
 <!-- douban starts -->
-
+* <a href='http://movie.douban.com/subject/25864085/' target='_blank'>看过火星救援</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/1308767/' target='_blank'>看过谍影重重2</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/25934014/' target='_blank'>看过爱乐之城</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/1419936/' target='_blank'>看过战争之王</a> - 2022-11-04
+* <a href='http://movie.douban.com/subject/25807345/' target='_blank'>看过彗星来的那一夜</a> - 2022-11-04
 <!-- douban ends -->
 </td></tr></table>
 
