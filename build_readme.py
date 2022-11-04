@@ -141,7 +141,16 @@ def fetch_blog_entries():
         for entry in entries
     ]
 
-
+def fetch_douban():
+    entries = feedparser.parse("https://www.douban.com/feed/people/247254851/interests")["entries"]
+    return [
+        {
+            "title": item["title"],
+            "url": item["link"].split("#")[0],
+            "published": formatGMTime(item["published"])
+        }
+        for item in entries
+    ]
 if __name__ == "__main__":
     readme = root / "README.md"
     # project_releases = root / "releases.md"
@@ -201,11 +210,17 @@ if __name__ == "__main__":
     #     ]
     # )
     # rewritten = replace_chunk(rewritten, "tils", tils_md)
-
+# 个人博客
     entries = fetch_blog_entries()[:2]
     entries_md = "\n\n".join(
         ["[{title}]({url}) - {published}".format(**entry) for entry in entries]
     )
     rewritten = replace_chunk(readme_contents, "blog", entries_md)
+# 豆瓣
+    doubans = fetch_douban()[:5]
+    doubans_md = "\n".join(
+        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
+    )
+    rewritten = replace_chunk(rewritten, "douban", doubans_md)
 
     readme.open("w").write(rewritten)
