@@ -18,6 +18,11 @@
 
 ### douban
 <!-- douban starts -->
+* <a href='https://book.douban.com/subject/6021440/' target='_blank'>最近在读黑客与画家</a> - 2022-11-03
+* <a href='https://book.douban.com/subject/26369699/' target='_blank'>最近在读被讨厌的勇气</a> - 2022-11-03
+* <a href='https://book.douban.com/subject/25862578/' target='_blank'>读过解忧杂货店</a> - 2022-11-03
+* <a href='https://book.douban.com/subject/26295448/' target='_blank'>读过你一生的故事</a> - 2022-11-03
+* <a href='https://book.douban.com/subject/1394364/' target='_blank'>读过银河系漫游指南</a> - 2022-11-03
 <!-- douban ends -->
 </td></tr></table>
 
