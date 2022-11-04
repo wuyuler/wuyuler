@@ -16,7 +16,7 @@
 <!-- blog ends -->
 </td><td valign="top" width="33%">
 
-### douban
+### 豆瓣
 <!-- douban starts -->
 <!-- douban ends -->
 </td></tr></table>
