@@ -10,6 +10,9 @@
 
 ### On my blog
 <!-- blog starts -->
+[潮流周刊 100 期，做了个官网](https://wuyuler.github.io/2022-10-22/weekly.html) - 2022-10-22
+
+[妙言 - 更适合工程师用的笔记应用](https://wuyuler.github.io/2022-09-09/miaoyan.html) - 2022-09-09
 <!-- blog ends -->
 test
 </td><td valign="top" width="33%">
