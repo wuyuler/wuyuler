@@ -291,5 +291,5 @@ if __name__ == "__main__":
     til_md== "\n".join(
         ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in export.titles]
     )
-    rewritten = replace_chunk(rewritten, "douban", doubans_md) 
+    rewritten = replace_chunk(rewritten, "til", til_md) 
     readme.open("w").write(rewritten)
