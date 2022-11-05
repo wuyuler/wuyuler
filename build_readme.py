@@ -208,7 +208,7 @@ if __name__ == "__main__":
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
     tils=fetch_tils()[:2]
-    test=tils[0]["title"]
+    print(tils)
     til_md= "\n\n".join(
         ["[{title}]({url}) - {published}".format(**entry) for entry in tils]
     )
