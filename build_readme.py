@@ -208,8 +208,8 @@ if __name__ == "__main__":
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
     tils=fetch_tils()[:5]
-    til_md= "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in tils]
+    til_md== "\n".join(
+        ["* <a href='{url}' target='_blank'>{title}</a>".format(**item) for item in tils]
     )
     rewritten = replace_chunk(rewritten, "til", til_md) 
     readme.open("w").write(rewritten)
