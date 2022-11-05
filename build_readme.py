@@ -6,9 +6,7 @@ import pathlib
 import re
 import os
 import datetime
-from prettytable import PrettyTable
-import aiohttp
-import asyncio
+
 root = pathlib.Path(__file__).parent.resolve()
 client = GraphqlClient(endpoint="https://api.github.com/graphql")
 
