@@ -183,13 +183,13 @@ def get_docs(repo_id):
     return [{
         "title": entry["title"],
         "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"],
-        "published": entry["published_at"][:10]
+        "create": entry["published_at"][:10]
     } for entry in entries]
 def fetchTIL():
         getRepo()
         TIL_id = repo["TIL"]
         docs = get_docs(TIL_id)
-        sorted(docs, key=lambda x: x["published"])
+        sorted(docs, key=lambda x: x["create"])
         return docs
 if __name__ == "__main__":
     readme = root / "README.md"
@@ -203,7 +203,7 @@ if __name__ == "__main__":
     # 豆瓣
     doubans = fetch_douban()[:5]
     doubans_md = "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
+        ["* <a href='{url}' target='_blank'>{title}</a> - {create}".format(**item) for item in doubans]
     )
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
