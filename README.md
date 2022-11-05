@@ -19,19 +19,24 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
-* <a href='https://www.yuque.com/yongyule/xkp8qg/ou5am4xff8sznevc' target='_blank'>python读取语雀数据</a> - 2022-11-05
-* <a href='https://www.yuque.com/yongyule/xkp8qg/ds93yz' target='_blank'>Today I Learned</a> - 2022-11-05
+[python读取语雀数据](https://www.yuque.com/yongyule/xkp8qg/ou5am4xff8sznevc) - 2022-11-05
+
+[Today I Learned](https://www.yuque.com/yongyule/xkp8qg/ds93yz) - 2022-11-05
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
 
 ### Have fun
 <!-- douban starts -->
-* <a href='http://movie.douban.com/subject/2080133/' target='_blank'>看过男儿本色</a> - 2022-11-05
-* <a href='http://movie.douban.com/subject/25864085/' target='_blank'>看过火星救援</a> - 2022-11-04
-* <a href='http://movie.douban.com/subject/1308767/' target='_blank'>看过谍影重重2</a> - 2022-11-04
-* <a href='http://movie.douban.com/subject/25934014/' target='_blank'>看过爱乐之城</a> - 2022-11-04
-* <a href='http://movie.douban.com/subject/1419936/' target='_blank'>看过战争之王</a> - 2022-11-04
+[看过男儿本色](http://movie.douban.com/subject/2080133/) - 2022-11-05
+
+[看过火星救援](http://movie.douban.com/subject/25864085/) - 2022-11-04
+
+[看过谍影重重2](http://movie.douban.com/subject/1308767/) - 2022-11-04
+
+[看过爱乐之城](http://movie.douban.com/subject/25934014/) - 2022-11-04
+
+[看过战争之王](http://movie.douban.com/subject/1419936/) - 2022-11-04
 <!-- douban ends -->
 </td></tr></table>
 
