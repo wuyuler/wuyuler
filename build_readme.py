@@ -181,9 +181,10 @@ def get_docs(repo_id):
     result = req(api)
     entries = result.get('data')
     return [{
+        "create": entry["published_at"][:10],
         "title": entry["title"],
-        "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"],
-        "create": entry["published_at"][:10]
+        "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"]
+        
     } for entry in entries]
 def fetchTIL():
         getRepo()
