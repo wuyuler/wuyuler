@@ -158,59 +158,41 @@ def fetch_douban():
         for item in entries
     ]
 
-class ExportMD:
-    def __init__(self):
-        self.repo_table = PrettyTable(["知识库ID", "名称"])
-        # self.namespace, self.Token = self.get_UserInfo()
-        self.namespace="yongyule"
-        self.Token="ff2jIOU0aWA4onGzY0t22PaS2rdtLrar0ojY5f67"
-        self.headers = {
-            "Content-Type": "application/json",
-            "User-Agent": "ExportMD",
-            "X-Auth-Token": self.Token
-        }
-        self.repo = {}
-        self.export_dir = './yuque'
-        self.titles={}
+# TIL
+repo={}
+namespace="yongyule"
+Token="ff2jIOU0aWA4onGzY0t22PaS2rdtLrar0ojY5f67"
+def req(api):
+    headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "ExportMD",
+        "X-Auth-Token": Token
+    }
+    url = "https://www.yuque.com/api/v2" + api
+    return httpx.get(url, headers=headers).json()
 
-
-    # 发送请求
-    async def req(self, session, api):
-        url = "https://www.yuque.com/api/v2" + api
-        async with session.get(url, headers=self.headers) as resp:
-            result = await resp.json()
-            return result
-
-    # 获取所有知识库
-    async def getRepo(self):
-        api = "/users/%s/repos" % self.namespace
-        async with aiohttp.ClientSession() as session:
-            result = await self.req(session, api)
-            for repo in result.get('data'):
-                repo_id = str(repo['id'])
-                repo_name = repo['name']
-                self.repo[repo_name] = repo_id
-                self.repo_table.add_row([repo_id, repo_name])
-
-    # 获取一个知识库的文档列表
-    async def get_docs(self, repo_id):
-        api = "/repos/%s/docs" % repo_id
-        async with aiohttp.ClientSession() as session:
-            result = await self.req(session, api)
-            entries = result.get('data')
-            return [{
-                "title":entry["title"],
-                "url":"https://www.yuque.com/yongyule/xkp8qg/"+entry["slug"],
-                "published": entry["published_at"][:10]
-            } for entry in entries]
-
-    async def run(self):
-        # self.print_logo()
-        await self.getRepo()
-        TIL_id=self.repo["TIL"]
-        docs = await self.get_docs(TIL_id)
+def getRepo():
+    api = "/users/%s/repos" % namespace
+    result = req(api)
+    for repo1 in result.get('data'):
+        repo_id = str(repo1['id'])
+        repo_name = repo1['name']
+        repo[repo_name] = repo_id
+def get_docs(repo_id):
+    api = "/repos/%s/docs" % repo_id
+    result = req(api)
+    entries = result.get('data')
+    return [{
+        "title": entry["title"],
+        "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"],
+        "published": entry["published_at"][:10]
+    } for entry in entries]
+def fetchTIL():
+        getRepo()
+        TIL_id = repo["TIL"]
+        docs = get_docs(TIL_id)
         sorted(docs, key=lambda x: x["published"])
-        self.titles=docs[:5]
+        return docs
 if __name__ == "__main__":
     readme = root / "README.md"
     readme_contents = readme.open().read()
@@ -227,15 +209,9 @@ if __name__ == "__main__":
     )
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
-    export = ExportMD()
-    export.namespace="yongyule"
-    export.Token="ff2jIOU0aWA4onGzY0t22PaS2rdtLrar0ojY5f67"
-    export.getRepo()
-    # print("test")
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(export.run())
+    tils=fetch_tils()[:5]
     til_md== "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in export.titles]
+        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in tils]
     )
     rewritten = replace_chunk(rewritten, "til", til_md) 
     readme.open("w").write(rewritten)
