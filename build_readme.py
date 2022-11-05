@@ -203,13 +203,13 @@ if __name__ == "__main__":
     # 豆瓣
     doubans = fetch_douban()[:5]
     doubans_md = "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {create}".format(**item) for item in doubans]
+        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
     )
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
     tils=fetch_tils()[:5]
     til_md= "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in tils]
+        ["* <a href='{url}' target='_blank'>{title}</a> - {create}".format(**item) for item in tils]
     )
     rewritten = replace_chunk(rewritten, "til", til_md) 
     readme.open("w").write(rewritten)
