@@ -181,7 +181,7 @@ def get_docs(repo_id):
     result = req(api)
     entries = result.get('data')
     return [{
-        "create": entry["published_at"][:10],
+        "create": "test",
         "title": entry["title"],
         "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"]
         
