@@ -190,7 +190,7 @@ def fetchTIL():
         getRepo()
         TIL_id = repo["TIL"]
         docs = get_docs(TIL_id)
-        sorted(docs, key=lambda x: x["create"])
+        # sorted(docs, key=lambda x: x["create"])
         return docs
 if __name__ == "__main__":
     readme = root / "README.md"
