@@ -14,6 +14,16 @@
 
 [妙言 - 更适合工程师用的笔记应用](https://wuyuler.github.io/2022-09-09/miaoyan.html) - 2022-09-09
 <!-- blog ends -->
+More on [wuyuler](https://wuyuler.github.io/)
+</td><td valign="top" width="33%">
+
+### TIL
+<!-- til starts -->
+[潮流周刊 100 期，做了个官网](https://wuyuler.github.io/2022-10-22/weekly.html) - 2022-10-22
+
+[妙言 - 更适合工程师用的笔记应用](https://wuyuler.github.io/2022-09-09/miaoyan.html) - 2022-09-09
+<!-- til ends -->
+More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
 
 ### Have fun
