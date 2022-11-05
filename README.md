@@ -19,11 +19,8 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
-* <a href='https://github.com/simonw/til/blob/main/mastodon/export-timeline-to-sqlite.md' target='_blank'>Export a Mastodon timeline to SQLite</a>
-* <a href='https://github.com/simonw/til/blob/main/mastodon/custom-domain-mastodon.md' target='_blank'>Getting Mastodon running on a custom domain</a>
-* <a href='https://github.com/simonw/til/blob/main/github/github-pages.md' target='_blank'>GitHub Pages: The Missing Manual</a>
-* <a href='https://github.com/simonw/til/blob/main/python/pdb-interact.md' target='_blank'>The pdb interact command</a>
-* <a href='https://github.com/simonw/til/blob/main/git/git-bisect.md' target='_blank'>git bisect</a>
+* <a href='https://www.yuque.com/yongyule/xkp8qg/ou5am4xff8sznevc' target='_blank'>python读取语雀数据</a> - 2022-11-05
+* <a href='https://www.yuque.com/yongyule/xkp8qg/ds93yz' target='_blank'>Today I Learned</a> - 2022-11-05
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
