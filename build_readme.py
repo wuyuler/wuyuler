@@ -122,18 +122,6 @@ def fetch_releases(oauth_token):
         after_cursor = data["data"]["viewer"]["repositories"]["pageInfo"]["endCursor"]
     return releases
 
-
-def fetch_tils():
-    sql = """
-        select path, replace(title, '_', '\_') as title, url, topic, slug, created_utc
-        from til order by created_utc desc limit 5
-    """.strip()
-    return httpx.get(
-        "https://til.simonwillison.net/tils.json",
-        params={"sql": sql, "_shape": "array",},
-    ).json()
-
-
 def fetch_blog_entries():
     entries = feedparser.parse("https://wuyuler.github.io/feed.xml")["entries"]
     return [
@@ -207,10 +195,10 @@ if __name__ == "__main__":
     )
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
-    tils=fetch_tils()[:2]
+    tils=fetchTIL()[:2]
     print(tils)
-    til_md= "\n\n".join(
-        ["[{title}]({url}) - {published}".format(**entry) for entry in tils]
+    til_md= "\n".join(
+        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in tils]
     )
     rewritten = replace_chunk(rewritten, "til", til_md) 
     readme.open("w").write(rewritten)
