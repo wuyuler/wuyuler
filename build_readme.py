@@ -181,16 +181,15 @@ def get_docs(repo_id):
     result = req(api)
     entries = result.get('data')
     return [{
-        "create": "test",
         "title": entry["title"],
-        "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"]
-        
+        "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"],
+        "published": entry["published_at"][:10]
     } for entry in entries]
 def fetchTIL():
         getRepo()
         TIL_id = repo["TIL"]
         docs = get_docs(TIL_id)
-        # sorted(docs, key=lambda x: x["create"])
+        sorted(docs, key=lambda x: x["published"])
         return docs
 if __name__ == "__main__":
     readme = root / "README.md"
@@ -209,8 +208,8 @@ if __name__ == "__main__":
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
     tils=fetch_tils()[:5]
-    til_md= "\n".join(
-        ["* {create}-<a href='{url}' target='_blank'>{title}</a> ".format(**item) for item in tils]
+    til_md= "\n\n".join(
+        ["[{title}]({url}) - {published}".format(**entry) for entry in tils]
     )
     rewritten = replace_chunk(rewritten, "til", til_md) 
     readme.open("w").write(rewritten)
