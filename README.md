@@ -16,7 +16,7 @@
 <!-- blog ends -->
 </td><td valign="top" width="33%">
 
-### 豆瓣
+### Have fun
 <!-- douban starts -->
 * <a href='http://movie.douban.com/subject/25864085/' target='_blank'>看过火星救援</a> - 2022-11-04
 * <a href='http://movie.douban.com/subject/1308767/' target='_blank'>看过谍影重重2</a> - 2022-11-04
