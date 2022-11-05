@@ -190,15 +190,15 @@ if __name__ == "__main__":
     rewritten = replace_chunk(readme_contents, "blog", entries_md)
     # 豆瓣
     doubans = fetch_douban()[:5]
-    doubans_md = "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
+    doubans_md = "\n\n".join(
+        ["[{title}]({url}) - {published}".format(**item) for item in doubans]
     )
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     #TIL
     tils=fetchTIL()[:2]
     print(tils)
-    til_md= "\n".join(
-        ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in tils]
+    til_md= "\n\n".join(
+        ["[{title}]({url}) - {published}".format(**entry) for entry in tils]
     )
     rewritten = replace_chunk(rewritten, "til", til_md) 
     readme.open("w").write(rewritten)
