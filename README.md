@@ -19,9 +19,11 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
-[潮流周刊 100 期，做了个官网](https://wuyuler.github.io/2022-10-22/weekly.html) - 2022-10-22
-
-[妙言 - 更适合工程师用的笔记应用](https://wuyuler.github.io/2022-09-09/miaoyan.html) - 2022-09-09
+* <a href='https://github.com/simonw/til/blob/main/mastodon/export-timeline-to-sqlite.md' target='_blank'>Export a Mastodon timeline to SQLite</a>
+* <a href='https://github.com/simonw/til/blob/main/mastodon/custom-domain-mastodon.md' target='_blank'>Getting Mastodon running on a custom domain</a>
+* <a href='https://github.com/simonw/til/blob/main/github/github-pages.md' target='_blank'>GitHub Pages: The Missing Manual</a>
+* <a href='https://github.com/simonw/til/blob/main/python/pdb-interact.md' target='_blank'>The pdb interact command</a>
+* <a href='https://github.com/simonw/til/blob/main/git/git-bisect.md' target='_blank'>git bisect</a>
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
