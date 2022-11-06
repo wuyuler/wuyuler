@@ -168,6 +168,7 @@ def get_docs(repo_id):
     result = req(api)
     entries = result.get('data')
     for en in entries: 
+        print(en["title"])
         print(en["published_at"])
     return [{
         "title": entry["title"],
