@@ -29,6 +29,7 @@ jobs:
     - name: Update README
       env:
         YJT_TOKEN: ${{ secrets.YJT_TOKEN }}
+        YJT_YUQUE: ${{ secrets.YJT_YUQUE }}
       run: |-
         python build_readme.py
         cat README.md
