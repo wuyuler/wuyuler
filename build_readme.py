@@ -12,7 +12,7 @@ client = GraphqlClient(endpoint="https://api.github.com/graphql")
 
 
 TOKEN = os.environ.get("YJT_TOKEN", "")
-
+YUQUE = os.environ.get("YJT_YUQUE", "")
 
 def replace_chunk(content, marker, chunk, inline=False):
     r = re.compile(
@@ -147,12 +147,11 @@ def fetch_douban():
 # TIL
 repo={}
 namespace="yongyule"
-Token="ff2jIOU0aWA4onGzY0t22PaS2rdtLrar0ojY5f67"
 def req(api):
     headers = {
         "Content-Type": "application/json",
         "User-Agent": "ExportMD",
-        "X-Auth-Token": Token
+        "X-Auth-Token": YUQUE
     }
     url = "https://www.yuque.com/api/v2" + api
     return httpx.get(url, headers=headers).json()
