@@ -167,6 +167,7 @@ def get_docs(repo_id):
     api = "/repos/%s/docs" % repo_id
     result = req(api)
     entries = result.get('data')
+    print(entries)
     return [{
         "title": entry["title"],
         "url": "https://www.yuque.com/yongyule/xkp8qg/" + entry["slug"],
