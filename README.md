@@ -34,15 +34,15 @@ More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 
 ### Have fun
 <!-- douban starts -->
-[看过男儿本色](http://movie.douban.com/subject/2080133/) - 2022-11-05
+[想读认识电影](https://book.douban.com/subject/2326403/) - 2022-11-07
 
-[看过火星救援](http://movie.douban.com/subject/25864085/) - 2022-11-04
+[读过消失的13级台阶](https://book.douban.com/subject/34996429/) - 2022-11-07
 
-[看过谍影重重2](http://movie.douban.com/subject/1308767/) - 2022-11-04
+[想读显微镜下的大明](https://book.douban.com/subject/30414743/) - 2022-11-07
 
-[看过爱乐之城](http://movie.douban.com/subject/25934014/) - 2022-11-04
+[读过小镇奇谈](https://book.douban.com/subject/35556905/) - 2022-11-07
 
-[看过战争之王](http://movie.douban.com/subject/1419936/) - 2022-11-04
+[读过圣母](https://book.douban.com/subject/30475757/) - 2022-11-07
 <!-- douban ends -->
 </td></tr></table>
 
