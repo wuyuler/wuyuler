@@ -19,15 +19,15 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
+[C++生成随机数](https://www.yuque.com/yongyule/xkp8qg/oh7th5uy33pk4w2a) - 2022-11-07
+
 [Linux配置全局环境变量](https://www.yuque.com/yongyule/xkp8qg/nqz0bp1zltdobzgv) - 2022-11-07
 
-[设置todo](https://www.yuque.com/yongyule/xkp8qg/myozudf5detolz21) - 2022-11-06
+[MyFoam设置todo](https://www.yuque.com/yongyule/xkp8qg/myozudf5detolz21) - 2022-11-06
 
 [Action设置环境变量存储敏感数据](https://www.yuque.com/yongyule/xkp8qg/obzwmmkcw7lrct27) - 2022-11-06
 
 [关闭github action通知](https://www.yuque.com/yongyule/xkp8qg/ypcreufp38r8pifg) - 2022-11-06
-
-[遍历数组并返回自定义key的字典list](https://www.yuque.com/yongyule/xkp8qg/lee17h43o9vezbnc) - 2022-11-06
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
