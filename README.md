@@ -34,15 +34,7 @@ More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 
 ### Have fun
 <!-- douban starts -->
-[想读激荡三十年（上）](https://book.douban.com/subject/1970428/) - 2022-11-07
 
-[想读球状闪电](https://book.douban.com/subject/1192090/) - 2022-11-07
-
-[想读认识电影](https://book.douban.com/subject/2326403/) - 2022-11-07
-
-[读过消失的13级台阶](https://book.douban.com/subject/34996429/) - 2022-11-07
-
-[想读显微镜下的大明](https://book.douban.com/subject/30414743/) - 2022-11-07
 <!-- douban ends -->
 </td></tr></table>
 
