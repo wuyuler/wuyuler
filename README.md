@@ -19,15 +19,15 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
+[lldb](https://www.yuque.com/yongyule/xkp8qg/pwg1pgxnnkrg7fkx) - 2022-11-09
+
+[FDB_清空数据与查询所有数据](https://www.yuque.com/yongyule/xkp8qg/wy3rgf2fbwqgk8xb) - 2022-11-09
+
+[Linux配置clash](https://www.yuque.com/yongyule/xkp8qg/my8ql6v2v5ko58sn) - 2022-11-10
+
 [将本地分支push到远程](https://www.yuque.com/yongyule/xkp8qg/qpx47g0pde7esi6f) - 2022-11-08
 
 [Clang-format](https://www.yuque.com/yongyule/xkp8qg/yf9tcz2bqpk9qnnl) - 2022-11-07
-
-[C++四种类型转换](https://www.yuque.com/yongyule/xkp8qg/uroicdcyx7y0doqq) - 2022-11-07
-
-[C++生成随机数](https://www.yuque.com/yongyule/xkp8qg/oh7th5uy33pk4w2a) - 2022-11-07
-
-[Linux配置全局环境变量](https://www.yuque.com/yongyule/xkp8qg/nqz0bp1zltdobzgv) - 2022-11-07
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
