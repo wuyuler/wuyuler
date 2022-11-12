@@ -19,15 +19,15 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
+[shell常用命令](https://www.yuque.com/yongyule/xkp8qg/ftf23hi2y2ifk494) - 2022-11-12
+
+[Python环境配置](https://www.yuque.com/yongyule/xkp8qg/kk67l6rpydnv4rw4) - 2022-11-12
+
 [Github SSH configuration](https://www.yuque.com/yongyule/xkp8qg/sue0d763bkttwhfm) - 2022-11-11
 
 [docker常用](https://www.yuque.com/yongyule/xkp8qg/eeb5tgkvypst0o48) - 2022-11-11
 
 [C++避免unuse报错](https://www.yuque.com/yongyule/xkp8qg/mhxmvhg8ifctcwza) - 2022-11-10
-
-[lldb](https://www.yuque.com/yongyule/xkp8qg/pwg1pgxnnkrg7fkx) - 2022-11-09
-
-[FDB_清空数据与查询所有数据](https://www.yuque.com/yongyule/xkp8qg/wy3rgf2fbwqgk8xb) - 2022-11-09
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
