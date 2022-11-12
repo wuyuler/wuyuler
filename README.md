@@ -19,6 +19,8 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
+[FDB清理与安装](https://www.yuque.com/yongyule/xkp8qg/fk7z57skih4iptdr) - 2022-11-12
+
 [shell常用命令](https://www.yuque.com/yongyule/xkp8qg/ftf23hi2y2ifk494) - 2022-11-12
 
 [Python环境配置](https://www.yuque.com/yongyule/xkp8qg/kk67l6rpydnv4rw4) - 2022-11-12
@@ -26,8 +28,6 @@ More on [wuyuler](https://wuyuler.github.io/)
 [Github SSH configuration](https://www.yuque.com/yongyule/xkp8qg/sue0d763bkttwhfm) - 2022-11-11
 
 [docker常用](https://www.yuque.com/yongyule/xkp8qg/eeb5tgkvypst0o48) - 2022-11-11
-
-[C++避免unuse报错](https://www.yuque.com/yongyule/xkp8qg/mhxmvhg8ifctcwza) - 2022-11-10
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
