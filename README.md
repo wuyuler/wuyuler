@@ -44,6 +44,7 @@ More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 
 [想读显微镜下的大明](https://book.douban.com/subject/30414743/) - 2022-11-07
 <!-- douban ends -->
+More on [Douban](https://www.douban.com/people/247254851)
 </td></tr></table>
 
 <!---
