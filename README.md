@@ -10,9 +10,9 @@
 
 ### On my blog
 <!-- blog starts -->
-[潮流周刊 100 期，做了个官网](https://wuyuler.github.io/2022-10-22/weekly.html) - 2022-10-22
+[使用github搭建博客](https://wuyuler.github.io/2022-11-20/%E4%BD%BF%E7%94%A8github%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html) - 2022-11-20
 
-[妙言 - 更适合工程师用的笔记应用](https://wuyuler.github.io/2022-09-09/miaoyan.html) - 2022-09-09
+[论文笔记《Amazon Redshift Re-invented》](https://wuyuler.github.io/2022-11-19/Amazon-Redshift-Re-invented_%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB.html) - 2022-11-19
 <!-- blog ends -->
 More on [wuyuler](https://wuyuler.github.io/)
 </td><td valign="top" width="33%">
