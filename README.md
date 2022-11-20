@@ -19,6 +19,8 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
+[win10定时push脚本](https://www.yuque.com/yongyule/xkp8qg/cku1xb9gpsmagens) - 2022-11-20
+
 [Foam自定义journal格式](https://www.yuque.com/yongyule/xkp8qg/fiy5qpp1o5g1cfmx) - 2022-11-19
 
 [Foam配置类型信息](https://www.yuque.com/yongyule/xkp8qg/ulgi0hnl7hcd0i6z) - 2022-11-19
@@ -26,8 +28,6 @@ More on [wuyuler](https://wuyuler.github.io/)
 [win10设置环境变量](https://www.yuque.com/yongyule/xkp8qg/gvbcs28te6hkrcg7) - 2022-11-19
 
 [RSS订阅](https://www.yuque.com/yongyule/xkp8qg/guka72723fsg43l4) - 2022-11-15
-
-[模板特化](https://www.yuque.com/yongyule/xkp8qg/yiu0bzbnvigddck0) - 2022-11-14
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
