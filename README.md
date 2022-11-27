@@ -10,6 +10,10 @@
 
 ### On my blog
 <!-- blog starts -->
+[PolarDB Serverless](https://wuyuler.github.io/2022-11-26/PolarDB-Serverless.html) - 2022-11-26
+
+[The Snowflake Elastic Data Warehouse](https://wuyuler.github.io/2022-11-23/The-Snowflake-Elastic-Data-Warehouse.html) - 2022-11-23
+
 [使用github搭建博客](https://wuyuler.github.io/2022-11-20/%E4%BD%BF%E7%94%A8github%E5%88%B6%E4%BD%9C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html) - 2022-11-20
 
 [论文笔记《Amazon Redshift Re-invented》](https://wuyuler.github.io/2022-11-19/Amazon-Redshift-Re-invented_%E8%AE%BA%E6%96%87%E5%88%86%E4%BA%AB.html) - 2022-11-19
@@ -19,15 +23,15 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
-[win10定时push脚本](https://www.yuque.com/yongyule/xkp8qg/cku1xb9gpsmagens) - 2022-11-20
+[Disaggregated Memory](https://www.yuque.com/yongyule/xkp8qg/ztqmhyrifcg1kixm) - 2022-11-27
 
-[Foam自定义journal格式](https://www.yuque.com/yongyule/xkp8qg/fiy5qpp1o5g1cfmx) - 2022-11-19
+[RAM RRAM DRAM](https://www.yuque.com/yongyule/xkp8qg/gey1qrx33b1dydt8) - 2022-11-26
 
-[Foam配置类型信息](https://www.yuque.com/yongyule/xkp8qg/ulgi0hnl7hcd0i6z) - 2022-11-19
+[Disaggregated Data Centers(DDC)](https://www.yuque.com/yongyule/xkp8qg/yyigns6ezk4knbbz) - 2022-11-26
 
-[win10设置环境变量](https://www.yuque.com/yongyule/xkp8qg/gvbcs28te6hkrcg7) - 2022-11-19
+[如何提问](https://www.yuque.com/yongyule/xkp8qg/aiqnpbrzquvy3up2) - 2022-11-24
 
-[RSS订阅](https://www.yuque.com/yongyule/xkp8qg/guka72723fsg43l4) - 2022-11-15
+[快照隔离(MVCC)](https://www.yuque.com/yongyule/xkp8qg/oh4uk27fasysur3h) - 2022-11-24
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
