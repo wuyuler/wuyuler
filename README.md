@@ -25,6 +25,8 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
+[数据库排行榜网站](https://www.yuque.com/yongyule/xkp8qg/wg3ezhhoolfgweqz) - 2022-11-30
+
 [mindshow使用文本创建PPT](https://www.yuque.com/yongyule/xkp8qg/lrgx87stsde396qo) - 2022-11-28
 
 [txt小说格式转化](https://www.yuque.com/yongyule/xkp8qg/wkh824g1qrpxg8ho) - 2022-11-27
@@ -32,8 +34,6 @@ More on [wuyuler](https://wuyuler.github.io/)
 [Disaggregated Memory](https://www.yuque.com/yongyule/xkp8qg/ztqmhyrifcg1kixm) - 2022-11-27
 
 [RAM RRAM DRAM](https://www.yuque.com/yongyule/xkp8qg/gey1qrx33b1dydt8) - 2022-11-26
-
-[Disaggregated Data Centers(DDC)](https://www.yuque.com/yongyule/xkp8qg/yyigns6ezk4knbbz) - 2022-11-26
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
