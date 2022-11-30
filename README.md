@@ -10,9 +10,9 @@
 
 ### On my blog
 <!-- blog starts -->
-[Socrates The New SQL Server in the Cloud](https://wuyuler.github.io/2022-11-28/Socrates-The-New-SQL-Server-in-the-Cloud.html) - 2022-11-28
+[](https://wuyuler.github.io/2022-11-30/2022-11-26-PolarDB-Serverless.html) - 2022-11-30
 
-[PolarDB Serverless](https://wuyuler.github.io/2022-11-26/PolarDB-Serverless.html) - 2022-11-26
+[Socrates The New SQL Server in the Cloud](https://wuyuler.github.io/2022-11-28/Socrates-The-New-SQL-Server-in-the-Cloud.html) - 2022-11-28
 
 [The Snowflake Elastic Data Warehouse](https://wuyuler.github.io/2022-11-23/The-Snowflake-Elastic-Data-Warehouse.html) - 2022-11-23
 
