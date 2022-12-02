@@ -25,6 +25,8 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
+[拉取远程分支](https://www.yuque.com/yongyule/xkp8qg/gau5hxm62yore9ar) - 2022-12-02
+
 [无标题](https://www.yuque.com/yongyule/xkp8qg/aznai6mk8gop8a2x) - 2022-12-02
 
 [用远程分支强制覆盖本地代码](https://www.yuque.com/yongyule/xkp8qg/hw95pghdw6o0v6nw) - 2022-12-02
@@ -32,8 +34,6 @@ More on [wuyuler](https://wuyuler.github.io/)
 [数据库排行榜网站](https://www.yuque.com/yongyule/xkp8qg/wg3ezhhoolfgweqz) - 2022-11-30
 
 [mindshow使用文本创建PPT](https://www.yuque.com/yongyule/xkp8qg/lrgx87stsde396qo) - 2022-11-28
-
-[txt小说格式转化](https://www.yuque.com/yongyule/xkp8qg/wkh824g1qrpxg8ho) - 2022-11-27
 <!-- til ends -->
 More on [TIL](https://www.yuque.com/yongyule/xkp8qg)
 </td><td valign="top" width="33%">
