@@ -25,7 +25,7 @@ More on [wuyuler](https://wuyuler.github.io/)
 
 ### TIL
 <!-- til starts -->
-[如何进行笔记分类](https://www.yuque.com/yongyule/xkp8qg/vn9rd00w8d5vx6m4) - 2022-12-08
+[Obsidian标签](https://www.yuque.com/yongyule/xkp8qg/vn9rd00w8d5vx6m4) - 2022-12-08
 
 [拉取远程分支](https://www.yuque.com/yongyule/xkp8qg/gau5hxm62yore9ar) - 2022-12-02
 
